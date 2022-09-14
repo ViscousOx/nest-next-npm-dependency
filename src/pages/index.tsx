@@ -1,7 +1,8 @@
-import { FC } from 'react';
+import React from 'react';
+import { NextPage } from 'next';
 
-const Home: FC = () => {
-  return <h1>Home</h1>;
+const Home: NextPage = () => {
+  return <h1>Hello from NextJS! - Home</h1>;
 };
 
 export default Home;
