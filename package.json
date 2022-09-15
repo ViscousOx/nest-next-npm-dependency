@@ -24,7 +24,7 @@
     "prettier:base": "prettier --parser typescript",
     "prettier": "npm run prettier:base -- --list-different \"src/**/*.{js,ts,tsx}\"",
     "prettier:fix": "npm run prettier:base -- --loglevel warn --write \"src/**/*.{js,ts,tsx}\"",
-    "lint": "npx eslint src/pages src/server src/shared",
+    "lint": "npx eslint src src/pages",
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
